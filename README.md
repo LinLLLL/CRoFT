@@ -10,14 +10,14 @@ Recent vision-language pre-trained models (VL-PTMs) have shown remarkable succes
 
 **Overview of the CRoFT framework**
 
-![pipeline-croft](/Users/zl/Desktop/pipeline-croft.png)
+![pipeline-croft](pipeline-croft.png)
 
 ## How to Install
 
 This code is built on top of the awesome [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch) and [CoOp]([KaiyangZhou/CoOp: Prompt Learning **for** Vision-Language Models (IJCV'22, CVPR'22) (github.com)](https://github.com/KaiyangZhou/CoOp))., run `pip install -r requirements.txt` under `CRoFT/CoOp/` to install the required packages.
 
 ```shell
-git clone https://github.com/LinLLLL/CRoFT.git
+git clone https://github.com/LinLLLL/CRoFT
 cd CRoFT/CoOp
 
 conda create -n CRoFT python=3.9
