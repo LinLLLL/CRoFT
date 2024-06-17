@@ -135,7 +135,9 @@ We probide two OOD detection methods in SETUP-II, i.e., inferring energy score a
 ```shell
 # run the commands under CoOp/
 # inferring energy score
-python collect_result_set2_oodg.py
+python collect_result_set2_oodd.py
+
+# run the commands under CoOp/scripts/CRoFT
 # inferring KNN distance:
 python test_setup2_knn.py
 ```
