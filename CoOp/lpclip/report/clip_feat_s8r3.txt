@@ -1,0 +1,18 @@
+#less than five#greater than four
+ColoredMNIST, 1 Shot, Test acc stat: 22.73 (17.12)
+ColoredMNIST, 2 Shot, Test acc stat: 28.97 (4.97)
+ColoredMNIST, 4 Shot, Test acc stat: 28.19 (4.95)
+ColoredMNIST, 8 Shot, Test acc stat: 33.55 (10.25)
+ColoredMNIST, 16 Shot, Test acc stat: 30.96 (11.98)
+
+ColoredMNIST, 1 Shot, Test acc stat: 22.61 (17.11)
+ColoredMNIST, 2 Shot, Test acc stat: 28.57 (5.59)
+ColoredMNIST, 4 Shot, Test acc stat: 29.12 (5.75)
+ColoredMNIST, 8 Shot, Test acc stat: 33.04 (9.88)
+ColoredMNIST, 16 Shot, Test acc stat: 30.71 (12.11)
+#one#zero
+ColoredMNIST, 1 Shot, Test acc stat: 22.73 (17.11)
+ColoredMNIST, 2 Shot, Test acc stat: 28.98 (4.96)
+ColoredMNIST, 4 Shot, Test acc stat: 28.18 (4.97)
+ColoredMNIST, 8 Shot, Test acc stat: 33.54 (10.24)
+ColoredMNIST, 16 Shot, Test acc stat: 30.95 (11.99)
