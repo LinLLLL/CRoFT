@@ -41,9 +41,9 @@ For the OOD datasets, such as **PACS** and **VLCS**, are publicly available but 
 PACS
 ├── images
     ├── art_painting
-		├── cartoon
-		├── photo
-		└── sketch
+    ├── cartoon
+    ├── photo
+    └── sketch
 ├── test_on_art_painting.json
 ├── test_on_cartoon.json
 ├── test_on_photo.json
@@ -56,9 +56,9 @@ PACS
 VLCS
 ├── images
     ├── CALTECH
-		├── LABELME
-		├── PASCAL
-		└── SUN
+    ├── LABELME
+    ├── PASCAL
+    └── SUN
 ├── test_on_caltech.json
 ├── test_on_labelme.json
 ├── test_on_pascal.json
