@@ -12,9 +12,9 @@ CFG=$2  # config file
 SEED=$3
 SHOTS=$4
 lambda2=$5
-lambda1=5
-ratio=0.2
-ratio_text=0.5
+lambda1=$6
+ratio=$7
+ratio_text=$8
 
 
 for TEST_ENV in "test_on_labelme.json" "test_on_sun.json"  "test_on_pascal.json"  "test_on_caltech.json"  

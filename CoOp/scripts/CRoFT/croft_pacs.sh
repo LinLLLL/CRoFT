@@ -12,7 +12,7 @@ CFG=$2  # config file
 SEED=$3
 SHOTS=$4
 lambda2=$5
-lambda1=0
+lambda1=15
 ratio=0.2
 ratio_text=0.5
 

@@ -12,7 +12,7 @@ CFG=$2  # config file
 SEED=$3
 SHOTS=$4
 lambda2=$5
-lambda1=5
+lambda1=15
 ratio=0.2
 ratio_text=0.5
 
@@ -33,7 +33,7 @@ python train.py \
 --output-dir ${DIR} \
 DATASET.NUM_SHOTS ${SHOTS} \
 TRAINER.CRoFT.WCCF True \
-TRAINER.CRoFT.gen_step 5 \
+TRAINER.CRoFT.gen_step 1 \
 TEST_ENV ${TEST_ENV} \
 TRAINER.CRoFT.ratio ${ratio} \
 TRAINER.CRoFT.ratio_text ${ratio_text} \

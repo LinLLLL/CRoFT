@@ -1,5 +1,5 @@
 # sh feat_extractor.sh
-DATA=/ssd/ssd_central3/ll/DATA
+DATA=/path/to/DATA
 OUTPUT='./clip_feat/'
 SEED=1
 

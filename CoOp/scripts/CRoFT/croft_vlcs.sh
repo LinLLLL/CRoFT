@@ -12,9 +12,9 @@ CFG=$2  # config file
 SEED=$3
 SHOTS=$4
 lambda2=$5
-lambda1=15
-ratio=0.2
-ratio_text=0.1
+lambda1=$6
+ratio=$7
+ratio_text=$8
 
 
 for TEST_ENV in "test_on_labelme.json" "test_on_sun.json"  "test_on_pascal.json" "test_on_caltech.json"  
@@ -33,7 +33,7 @@ python train.py \
 --output-dir ${DIR} \
 DATASET.NUM_SHOTS ${SHOTS} \
 TRAINER.CRoFT.WCCF True \
-TRAINER.CRoFT.gen_step 1 \
+TRAINER.CRoFT.gen_step 5 \
 TEST_ENV ${TEST_ENV} \
 TRAINER.CRoFT.lambda1 ${lambda1} \
 TRAINER.CRoFT.lambda2 ${lambda2} \
